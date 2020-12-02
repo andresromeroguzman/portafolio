@@ -1,8 +1,9 @@
 * {
-	   padding: 0;
+	padding: 0;
      margin: 0;
      box-sizing: border-box;
   }
+
   /*====================Helpers===============*/
   .pd-5 {
 	    padding: 5px;
@@ -38,8 +39,7 @@
   .nav-container {
       background-image: url('https://us.123rf.com/450wm/sergiolucci/sergiolucci1910/sergiolucci191000218/132597056-golden-halftone-pattern-random-dots-gold-circles-on-black-background-vector-illustration-colorful-po.jpg?ver=6');
 	    text-align: center;
-	    margin: auto;
-	    height: 150px;
+	    margin: auto;	  
 	    width: 100%;
 	    background-color: black;
   }
@@ -113,11 +113,16 @@
   }
   .card-svc {
 	    text-align: center;
-	    border: 1px solid rgb(0, 0, 0);
+	    border: 1px solid rgb(173, 169, 169);
   }
+ 
   .picture {
       width: 100%;
-      height: auto;  
+      height: auto;
+      opacity: 0.5;
+  }
+  .picture:hover {
+      opacity: 1.0;
   }
  
   /* Contacto Form */
@@ -129,7 +134,7 @@
   }
   input { 
       width: 100%;
-      border-radius: 15px;   
+      cursor: pointer;   
   }
   label {  
       font-size : 25px;
@@ -141,6 +146,9 @@
   button {
       font-size: 20px;
       margin: 10px;
+  }
+  button:hover {
+    background-color: #aec4ec;
   }
 
   /*===========Proyectos====================*/
@@ -155,7 +163,7 @@
 	    margin-top: 15px;
   }
   .footer {
-	    height: 150px;
+	
       background-color: black;
       background-image: url('https://us.123rf.com/450wm/sergiolucci/sergiolucci1910/sergiolucci191000218/132597056-golden-halftone-pattern-random-dots-gold-circles-on-black-background-vector-illustration-colorful-po.jpg?ver=6');
 	    color: white;
