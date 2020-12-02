@@ -1,0 +1,176 @@
+* {
+	   padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+  }
+  /*====================Helpers===============*/
+  .pd-5 {
+	    padding: 5px;
+  }
+  .pd-10 {
+	    padding: 10px;
+  }
+  .pd-15 {
+	    padding: 15px;
+  }
+  .mg-top-15 {
+	margin-top: 10px;
+  }
+  .mg-5 {
+	    margin: 5px;
+  }
+  .mg-10 {
+      margin: 10px;
+  }
+  .text-center {
+	    text-align: center;
+  }
+  .icon-mrg {
+	    margin-right: 15px;
+  }
+  span {
+	    font-weight: bolder;
+  }
+  span:hover {
+	    border: 1px solid white;
+  }
+  /*================Nav Styles================*/
+  .nav-container {
+      background-image: url('https://us.123rf.com/450wm/sergiolucci/sergiolucci1910/sergiolucci191000218/132597056-golden-halftone-pattern-random-dots-gold-circles-on-black-background-vector-illustration-colorful-po.jpg?ver=6');
+	    text-align: center;
+	    margin: auto;
+	    height: 150px;
+	    width: 100%;
+	    background-color: black;
+  }
+  .txt-nav {
+	    text-decoration: none;
+	    font-size: 20px;
+	    color: white;
+	    font-family: Andale Mono, monospace;
+  }
+  .txt-nav:hover {
+	    text-shadow: 0 0 10px #ffffff;
+  }
+  .logo-txt {
+	    font-family: URW Chancery L, cursive;
+	    font-size: 25px;
+	    color: #ffffff;
+	    text-shadow: 0 0 10px #ffffff;
+  }
+  
+  /*==================Image Background section =============*/
+  .background-img {
+	    height: 300px;
+	    background-image: url("https://wallpaperaccess.com/full/13345.jpg");
+	    background-size: cover;
+	    background-position: center;
+  }
+  .avatar {
+	    display: flex;
+	    justify-content: center;
+	    height: 180px;
+	    background-color: #dec9c9;
+  }
+  .img-avatar {
+	    width: 170px;
+	    border-radius: 50%;
+	    background-image: url("../img/avatar.png");
+	    background-size: cover;
+  }
+   /*============ Personal info section ====================*/
+  
+   .personal-details {
+	    background-color: #e4dddd;
+	    text-align: center;
+  }
+  .icon-size-about-me {
+	    font-size: 20px;
+  }
+  .skills {
+	    text-align: center;
+	    background-color: #e4dddd;
+  }
+  .item-skill-detail {
+    	padding-top: 15px;
+    	border-bottom: 1px dotted black;
+  }
+  
+  /*===============Servicios =================*/
+  .title-effect:hover {
+	    text-shadow: 0 0 5px #ffffff;
+  }
+  .header-section {
+	    text-align: center;
+      background-color: black;
+      background-image: url('https://media.istockphoto.com/vectors/abstract-background-vector-id610855984?k=6&m=610855984&s=612x612&w=0&h=Spo3hbBLgKyii2VP8XFpsTk0F2Kzt8j1qPGqbLsB4ss=');
+	    color: white;
+	    height: 40px;
+	    padding-top: 10px;
+  }
+  .services-content {
+	    background-color: rgb(255, 255, 255);
+  }
+  .card-svc {
+	    text-align: center;
+	    border: 1px solid rgb(0, 0, 0);
+  }
+  .picture {
+      width: 100%;
+      height: auto;  
+  }
+ 
+  /* Contacto Form */
+ 
+  .form {
+      width: auto;
+      margin: auto;
+      background-color:rgb(238, 215, 215) ;    
+  }
+  input { 
+      width: 100%;
+      border-radius: 15px;   
+  }
+  label {  
+      font-size : 25px;
+      margin-left: 10px;;   
+  }
+  .textarea {
+      width: 100%;   
+  }
+  button {
+      font-size: 20px;
+      margin: 10px;
+  }
+
+  /*===========Proyectos====================*/
+  
+  .projects-contents {
+    	height: 200px;
+  }
+  .icon-size-skills {
+	    font-size: 50px;
+  }
+  h3 {
+	    margin-top: 15px;
+  }
+  .footer {
+	    height: 150px;
+      background-color: black;
+      background-image: url('https://us.123rf.com/450wm/sergiolucci/sergiolucci1910/sergiolucci191000218/132597056-golden-halftone-pattern-random-dots-gold-circles-on-black-background-vector-illustration-colorful-po.jpg?ver=6');
+	    color: white;
+  }
+  .logos {
+	    padding: 20px;
+	    font-size: 40px;
+  }
+  .social {
+	    background-color: white;
+	    border-radius: 100px;
+	    padding: 10px;
+  }
+  .a-social {
+	    color: black;
+  }
+  
+  
