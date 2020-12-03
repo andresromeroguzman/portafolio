@@ -6,6 +6,7 @@
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+ 
   .col-sm-1 {
     width: 8.33%;
   }
@@ -50,6 +51,9 @@
     display: flex;
     flex-wrap: wrap;
   }
+  ul li {
+    display: inline-block;
+}
   .personal-details {
     text-align: justify;
   }
@@ -120,6 +124,7 @@
     display: flex;
     flex-wrap: wrap;
   }
+
   button {
     margin-top: auto;
     margin-bottom: 10px;
@@ -127,6 +132,7 @@
   textarea {
     width: 90%;
   }
+  
   .col-lg-1 {
     width: 8.33%;
   }
