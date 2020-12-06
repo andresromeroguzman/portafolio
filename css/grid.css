@@ -1,12 +1,7 @@
 /*==============MEDIA QUERIES ========= */
-.container {
-  width: 90%;
-  margin: auto;
-}
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -14,14 +9,6 @@
   .nav-logo {
     margin: auto;
   }
-  .container-right ul li {
-    display: inline-block;
-  }
-  .container-right {
-    margin-left: 50px;;
-  }
-  
- 
   .col-sm-1 {
     width: 8.33%;
   }
@@ -66,39 +53,15 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .nav-logo {
-    margin-left:0px;;
-  }
-  .container-right{
-    margin: auto;
-  }
-  
   .personal-details {
     text-align: justify;
   }
-  .nav-container {
-    height: 100px;
-    top: 0;
-    position: sticky;
-  }
-
-  .container-right ul li {
-    display: inline-block;
-  }
-  
-
-  .footer-icons {
-    justify-content: center;
-  }
- 
-  .icon-mrg {
-    margin-right: 10px;
+  .picture {
+    width: 100%;
+    height: 215px;
   }
   .skills {
     text-align: justify;
-  }
-  .footer {
-    padding: 20px;
   }
   .col-md-1 {
     width: 8.33%;
@@ -119,7 +82,7 @@
   }
   .col-md-6 {
     width: 50%;
-    padding: 20px;
+    padding: 15px;
   }
   .col-md-7 {
     width: 58.33%;
@@ -147,7 +110,6 @@
     display: flex;
     flex-wrap: wrap;
   }
- 
   button {
     margin-top: auto;
     margin-bottom: 10px;
@@ -155,7 +117,6 @@
   textarea {
     width: 90%;
   }
-  
   .col-lg-1 {
     width: 8.33%;
   }
